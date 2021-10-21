@@ -1,0 +1,112 @@
+- var title = "Light, Fast & Powerful";
+- var littleTitle = "Title Goes Here";
+- var littleText = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt neque ab, facilis iure debitis reprehenderit! Voluptate at";
+- var text = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quod explicabo doloremque amet eligendi? Nemo, inventore eius molestias saepe nam facere hic laborum aut at totam veritatis voluptates, corporis modi.";
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous")
+        link(rel="stylesheet" href="fonts/Roboto.zip")
+        link(rel="stylesheet" href="CSS/style.css")
+        title Document
+    body
+        header
+            .header.container
+                ul.nav.container.menu
+                    ul.nav.row.navfr
+                        li.nav-item
+                            a.nav-link.active(href='#') Home
+                        li.nav-item
+                            a.nav-link(href='#') About
+                        li.nav-item
+                            a.nav-link(href='#') Contact
+                    ul.nav.logo-nav
+                        li.nav-item.logo
+                            a.nav-link(href='#') Landie
+                    button.btn.btn-primary.btn-fr(type='button') Buy Now
+                .card
+                    .card-body
+                        h5.card-title.first-title Introduce Your Product Quckly & Effectively
+                        p.card-text.first-text.column #{text}
+                        .buttons
+                            a.btn.btn-primary.fr-btn(href='#') Purchase UI Kit
+                            button.btn.btn-link.fr-btn.button-learn-more(type='button') Learn More
+        section.first-section
+            .card.container
+                .card-body
+                    h5.card-title.second-title #{title}
+                    p.card-text.second-text.column #{text}
+                    .inf
+                        .first-inf
+                            img(src="image/icon.svg", alt="icon")
+                            h6.first-title-inf #{littleTitle}
+                            p.first-text-inf #{littleText}
+                        .first-inf
+                            img(src="image/icon.svg", alt="icon")
+                            h6.first-title-inf #{littleTitle}
+                            p.first-text-inf #{littleText}
+        section.second-section
+            .box-secion-second.container
+                .first-article 
+                    .left-part
+                        img(src="image/third-main-image.png", alt="first")           
+                    .right-part1
+                        p.third-title #{title}
+                        p.third-text #{text}
+                .first-article
+                    .left-part
+                        img(src="image/fourth-main-image.png", alt="first")           
+                    .right-part2
+                        p.third-title #{title}
+                        p.third-text #{text}
+                .first-article
+                    .left-part
+                        img(src="image/fiveth-main-image.png", alt="first")           
+                    .right-part3
+                        p.third-title #{title}
+                        p.third-text #{text}
+                        a.btn.btn-primary(href='#') Purchase Now
+        section.third-section
+            .card.container.paying-card
+                .card-body-two
+                    h5.card-title.six-title A Price To Suit Everyone
+                    p.card-text.six-text #{text}
+                    .price
+                        h2.price-value $40
+                        p.service UI Design Kit
+                    .button-area
+                        p.inf-but See, One price, Simple
+                        a.btn.btn-primary(href='#') Purchase Now
+        footer
+            .footer
+                .container.container-footer.container-sm
+                    ul.nav.footer-nav.border-bottom
+                        li.nav-item
+                            a.nav-link.position(href='#') 
+                                img(src="image/1234.svg", alt="icon")
+                        li.nav-item
+                            a.nav-link.logo(href='#') Landie
+                        li.nav-item
+                            a.nav-link.nav-btn(href='#') 
+                                button.btn.btn-primary(type='button') Purchase Now
+                    ul.nav.navigation
+                        li.nav-item.nav-down-footer
+                            a.nav-link.active(href='#') Home
+                            a.nav-link.active(href='#') About
+                            a.nav-link.active(href='#') Contact
+                        li.nav-item.nav-down-footer
+                            a.nav-link(href='#') 
+                                img(src="image/facebook-icon.svg", alt="icon")
+                            a.nav-link(href='#') 
+                                img(src="image/linkdelin-icon.svg", alt="icon")
+                            a.nav-link(href='#') 
+                                img(src="image/twitter-icon.svg", alt="icon")
+                            a.nav-link(href='#') 
+                                img(src="image/youtube-icon.svg", alt="icon")
+                            a.nav-link(href='#') 
+                                img(src="image/Instagram-icon.svg", alt="icon")
+        script(src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous")
+        script(src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous")
+        script(src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous")

@@ -1,0 +1,109 @@
+* {
+    font-family: sans-serif;
+}
+body {
+    background-color: rgb(26, 26, 26);
+    width: 99%;
+    height: 100%;
+}
+section {
+    margin: 2rem;
+}
+.section-for-characters {
+    width: 63%;
+    min-height: 41rem;
+    background-color: rgb(71, 71, 71);
+    margin-right: 1.5%;
+}
+.section-for-planets {
+    width: 35%;
+    max-height: 41rem;
+    background-color: rgb(71, 71, 71);
+    margin-left: 1.5%;
+}
+.controler {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+select {
+    font-size: 17px;
+    width: 54%;
+    background-color: rgb(71, 71, 71);
+    border: 2px solid #bcb8b8;
+    border-radius: 15px;
+    color: #bcb8b8;
+}
+#show-characters-info {
+    width: 45%;
+    border: 5px solid #bcb8b8;
+    background-color: #bcb8b8;
+    border-radius: 15px;
+    color: rgb(71, 71, 71);
+}
+#show-planets {
+    background-color: #bcb8b8;
+    border-radius: 15px;
+    border: 5px solid #bcb8b8;
+    color: rgb(71, 71, 71);
+}
+#prev, #next {
+    background-color: #bcb8b8;
+    border: 5px solid #bcb8b8;
+    border-radius: 15px;
+    color: rgb(71, 71, 71);
+}
+#prev {
+    margin-right: 25.5%;
+}
+#next {
+    margin-left: 25.5%;
+}
+#swithc-buttons-for-planets {
+    display: flex;
+    justify-content: space-around;
+}
+.planet-inf-box {
+    text-align: center;
+    color: #bcb8b8;
+}
+.some-inf-buttons {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.buttons-with-a {
+    color: rgb(71, 71, 71);
+    background-color: #bcb8b8;
+    border-radius: 15px;
+    border: 5px solid #bcb8b8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h3, h4 {
+    display: inline-block;
+}
+.character-inf-box {
+    text-align: center;
+    color: #bcb8b8;
+}
+.result-area {
+    display: flex;
+
+}
+#swithc-buttons-for-planets {
+    visibility: hidden;
+}

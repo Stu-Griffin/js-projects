@@ -1,0 +1,135 @@
+@font-face {
+    src: url("Helvetica-font.zip") format("truetype");
+    font-family:"Helvetics";
+    font-style: normal; 
+    font-weight: normal;
+}
+h2 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: rgb(0, 0, 0);
+}
+.first {
+    text-align: center;
+}
+.second {
+    text-align: center;
+}
+/*first task*/
+header {
+    display: flex;
+    justify-content: center;
+}
+header section:first-child {
+    margin-right: 58px;
+}
+.block {
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+article {
+    display: flex;
+}
+.block:nth-child(3) {
+    background-color: red;
+}
+.last .block:nth-last-child(2n+1) {
+    background-color: blue;
+}
+.last .block:nth-child(1) {
+    background-color: blue;
+}
+
+/*first task second variant*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    justify-content: center;
+}
+.block1 {
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.block1:nth-child(4n+3) {
+    background-color: red;
+}
+.block1:nth-child(2n+22) {
+    background-color: blue;
+}
+.block1:nth-last-child(4) {
+    background-color: blue;
+}
+
+/*second task*/
+.box {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+.box::before {
+    content: "";
+    flex-basis: 200px;
+    height: 2px;
+    display: inline-block;
+    margin-top: 40px;
+    border-top: 2px solid #c4c4c4;
+    border-bottom: 2px solid #c4c4c4;
+    margin-right: 25px;
+}
+.box::after {
+    content: "";
+    flex-basis: 200px;
+    height: 2px;
+    display: inline-block;
+    margin-top: 40px;
+    border-top: 2px solid #c4c4c4;
+    border-bottom: 2px solid #c4c4c4;
+    margin-left: 25px;
+}
+.button {
+    /*button block style*/
+    width: 501px;
+    height: 92px;
+    background: #44D3A8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    border: none;
+
+    /*text button style*/
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+}
+button:hover {
+    background-color: rgb(0, 255, 179);
+    border-radius: 100px;
+}
+button:active {
+    background-color: rgb(0, 167, 117);
+    border-radius: 100px;
+}
+button:visited {
+    background-color: rgba(37, 37, 37, 0);
+    border-radius: 100px;
+}

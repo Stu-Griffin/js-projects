@@ -1,0 +1,59 @@
+.article, .second-article, .third-article, .fourth-article, .fiveth-article, .sixth-article, .seventh-article, .eighth-article, .nineth-article, .tenth-article, .elenth-article, .twelth-article, .thirteenth-article {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    max-width: max-content;
+    margin: auto;
+    border: 2px solid black;
+    padding: 1rem;
+}
+.second-article, .third-article, .fourth-article, .fiveth-article, .sixth-article, .seventh-article, .eighth-article, .nineth-article, .tenth-article, .elenth-article, .twelth-article, .thirteenth-article {
+    margin-top:  1rem;
+}
+article {
+    display: flex;
+}
+.block {
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+.HW-section {
+    width: 25rem;
+    height: 12.5rem;
+    background-color: gray;
+    position: relative;
+    margin: auto;
+    border-radius: 6px;
+}
+.key-pad {
+    position: relative;
+    margin-left: 24%;
+    padding-top: 5rem;
+}
+.button {
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+    border: none;
+}
+#character-btn, #generator-btn, #up, #down {
+    width: 10rem;
+    height: 2rem;
+    border-radius: 11px;
+    border: none;
+    background: cornsilk;
+    font-size: 1rem;
+    border: 1px solid black;
+}
+#answer {
+    margin-top: 1rem;
+    width: 10rem;
+    height: 2rem;
+    background-color: cornsilk;
+    font-size: 1rem;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 0.5rem;
+}

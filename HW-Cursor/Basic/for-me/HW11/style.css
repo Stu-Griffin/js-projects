@@ -1,0 +1,274 @@
+body {
+    background-color: rgb(61, 60, 60);
+}
+.first-task {
+    margin-top: 165px;
+}
+.menu-burger {
+    justify-content: center;
+    grid-gap: 18px;
+    display: grid;
+    /*padding-top: 100px;*/
+}
+.second-stick {
+    width: 300px;
+    /*visibility: hidden;*/
+    background-color: rgb(61, 60, 60);
+    height: 8px;
+}
+.first-stick {
+    width: 300px;
+    height: 8px;
+    background-color: white;
+    transform: rotate(45deg);
+}
+.lever1 {
+    height: 8px;
+    width: 20px;
+    background-color: rgb(61, 60, 60);
+    margin-left: 22px;
+}
+.third-stick {
+    width: 300px;
+    height: 8px;
+    background-color: white;
+    transform: rotate(-45deg);
+    margin-top: -52px;
+}
+.lever2 {
+    height: 8px;
+    width: 20px;
+    background-color: rgb(61, 60, 60);
+    margin-left: 261px;
+}
+.lever3 {
+    height: 8px;
+    width: 20px;
+    background-color: rgb(61, 60, 60);
+    margin-left: 22px;
+}
+.menu-burger:hover .second-stick {
+    background-color: rgb(61, 60, 60);
+    animation-name: first-stick;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+}
+@keyframes first-stick {
+    0% {
+      
+    }
+    25% {
+
+    }
+    50% {
+
+    }
+    75% {
+       
+    }
+    100% {
+        background-color: rgb(255, 255, 255);
+        margin-top: 10px;
+    }
+}
+.menu-burger:hover .first-stick {
+    background-color: red;
+    box-shadow: red 0px 0px 20px;
+    animation-name: second-stick;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+}
+@keyframes second-stick {
+    0% {
+        
+    }
+    25% {
+
+    }
+    50% {
+
+    }
+    75% {
+        transform: rotate(45deg);
+        
+    }
+    100% {
+        transform: rotate(0deg);
+        margin-top: 10px;
+        background-color: rgb(255, 255, 255);
+        box-shadow:none;
+    }
+}
+.menu-burger:hover .third-stick {
+    background-color: rgb(0, 255, 13);
+    box-shadow: rgb(0, 255, 13) 0px 0px 20px;
+    animation-name: third-stick;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+}
+@keyframes third-stick {
+    0% {
+        
+    }
+    25% {
+
+    }
+    50% {
+
+    }
+    75% {
+        transform: rotate(-45deg);
+    }
+    100% {
+        transform: rotate(0deg);
+        margin-top: 10px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: none;
+    }
+}
+
+
+
+
+.second-task {
+    margin-top: 563px;
+}
+.balls-container {
+    display: flex;
+    justify-content: center;
+}
+.ball {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 100%;
+}
+.first-ball {
+    animation-direction: alternate-reverse;
+    animation-duration: 0.4s;
+    animation-name: first-ball;
+    animation-iteration-count: infinite;
+    animation-delay: 0.4s;
+}
+@keyframes first-ball{
+    0% {
+
+    }
+    10% {
+        transform: translate(-30px, -10px);
+    }
+    20% {
+        transform: translate(-60px, -30px);
+    }
+    50% {
+        transform: translate(-85px, -60px);
+    }
+    60% {
+        transform: translate(-90px, -100px);
+    }
+    75% {
+        transform: translate(-95px, -140px);
+    }
+    100% {
+        transform: translate(-100px, -150px);
+    }
+}
+.last-ball {
+    animation-direction: alternate-reverse;
+    animation-duration: 0.4s;
+    animation-name: last-ball;
+    animation-iteration-count: infinite;
+}
+@keyframes last-ball{
+    0% {
+
+    }
+    10% {
+        transform: translate(30px, -10px);
+    }
+    20% {
+        transform: translate(60px, -30px);
+    }
+    50% {
+        transform: translate(85px, -60px);
+    }
+    60% {
+        transform: translate(90px, -100px);
+    }
+    75% {
+        transform: translate(95px, -140px);
+    }
+    100% {
+        transform: translate(100px, -150px);
+    }
+}
+.shadow {
+    width: 80px;
+    height: 2px;
+    background-color: rgb(31, 30, 30);
+    box-shadow: rgb(31, 30, 30) 0px 0px 20px;
+}
+.first-shadow {
+    animation-direction: alternate-reverse;
+    animation-duration: 0.4s;
+    animation-name: first-shadow;
+    animation-iteration-count: infinite;
+    animation-delay: 0.4s;
+}
+@keyframes first-shadow {
+    0% {
+
+    }
+    10% {
+        transform: translate(-30px, 0px);
+    }
+    20% {
+        transform: translate(-60px, 0px);
+    }
+    50% {
+        transform: translate(-85px, 0px);
+    }
+    60% {
+        transform: translate(-90px, 0px);
+    }
+    75% {
+        transform: translate(-95px, 0px);
+    }
+    100% {
+        transform: translate(-100px, 0px);
+    }
+}
+.last-shadow {
+    animation-direction: alternate-reverse;
+    animation-duration: 0.4s;
+    animation-name: last-shadow;
+    animation-iteration-count: infinite;
+}
+@keyframes last-shadow{
+    0% {
+
+    }
+    10% {
+        transform: translate(30px, 0px);
+    }
+    20% {
+        transform: translate(60px, 0px);
+    }
+    50% {
+        transform: translate(85px, 0px);
+    }
+    60% {
+        transform: translate(90px, 0px);
+    }
+    75% {
+        transform: translate(95px, 0px);
+    }
+    100% {
+        transform: translate(100px, 0px);
+    }
+}
