@@ -26,6 +26,9 @@ section {
     display: flex;
     justify-content: space-around;
 }
+.controlerShowPlanets {
+    padding: 1rem;
+}
 select {
     font-size: 17px;
     width: 54%;
@@ -107,3 +110,9 @@ h3, h4 {
 #swithc-buttons-for-planets {
     visibility: hidden;
 }
+/* 
+@media (max-width: 1100px) {
+    .controler {
+        flex-wrap: wrap;
+    }
+} */
